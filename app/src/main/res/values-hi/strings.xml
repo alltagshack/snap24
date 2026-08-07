@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SNAP24</string>
+
+    <!-- Main Activity -->
+    <string name="continuous_video_recorder">निरंतर वीडियो रिकॉर्डर</string>
+    <string name="status_idle">स्थिति: निष्क्रिय</string>
+    <string name="status_recording">स्थिति: रिकॉर्डिंग</string>
+
+    <!-- Info text components -->
+    <string name="info_quality_format">गुणवत्ता: %s</string>
+    <string name="info_camera_format">कैमरा: %s</string>
+    <string name="info_audio_format">ऑडियो: %s</string>
+    <string name="info_bitrate_format">बिटरेट: %s kbps</string>
+    <string name="info_segment_format">सेगमेंट: %s मिनट</string>
+    <string name="info_ring_buffer">रिंग बफर: 48 फाइलें (24 घंटे)</string>
+    <string name="info_est_size_format">अनुमानित आकार: ~%s MB/सेगमेंट</string>
+    <string name="info_est_total_format">अनुमानित कुल: ~%s GB</string>
+    <string name="info_free_space_format">मुफ्त जगह: %s</string>
+
+    <!-- Status texts -->
+    <string name="status_recording_details">वेक लॉक सक्रिय\nफोरग्राउंड सर्विस चल रही है</string>
+    <string name="status_idle_details">आवश्यक: कैमरा, माइक्रोफोन, स्टोरेज\nइस ऐप के लिए बैटरी ऑप्टिमाइज़ेशन अक्षम करें</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_recording">रिकॉर्डिंग शुरू करें</string>
+    <string name="btn_stop_recording">रोकें</string>
+    <string name="btn_open_recordings_folder">रिकॉर्डिंग फ़ोल्डर खोलें</string>
+
+    <!-- Note text -->
+    <string name="note_power_battery">नोट: फोन को स्थायी रूप से संचालित रखना होगा।\nइस ऐप के लिए बैटरी ऑप्टिमाइज़ेशन अक्षम करें।</string>
+
+    <!-- Settings menu titles -->
+    <string name="settings_back_camera_quality">पिछला कैमरा गुणवत्ता</string>
+    <string name="settings_front_camera_quality">फ्रंट कैमरा गुणवत्ता</string>
+    <string name="settings_camera_selection">कैमरा चयन</string>
+    <string name="settings_video_bitrate">वीडियो बिटरेट (संपीड़न)</string>
+
+    <!-- Quality dialog -->
+    <string name="quality_dialog_title">वीडियो गुणवत्ता</string>
+    <string name="quality_high">QUALITY_HIGH (डिवाइस बेस्ट)</string>
+    <string name="quality_1080p">QUALITY_1080P (1920x1080)</string>
+    <string name="quality_720p">QUALITY_720P (1280x720)</string>
+    <string name="quality_480p">QUALITY_480P (720x480)</string>
+    <string name="quality_cif">QUALITY_CIF (352x288)</string>
+    <string name="quality_qvga">QUALITY_QVGA (320x240)</string>
+    <string name="quality_qcif">QUALITY_QCIF (176x144)</string>
+    <string name="no_qualities_found">कोई समर्थित वीडियो गुणवत्ता नहीं मिली</string>
+    <string name="cancel">रद्द करें</string>
+
+    <!-- Camera selection dialog -->
+    <string name="camera_selection_title">कैमरा चयन</string>
+    <string name="camera_back">पिछला कैमरा</string>
+    <string name="camera_front">फ्रंट कैमरा (सेल्फी)</string>
+
+    <!-- Bitrate dialog -->
+    <string name="bitrate_dialog_title">वीडियो बिटरेट (संपीड़न)</string>
+    <string name="bitrate_500">500 kbps (बहुत कम)</string>
+    <string name="bitrate_1000">1000 kbps (कम)</string>
+    <string name="bitrate_2000">2000 kbps (मध्यम-कम)</string>
+    <string name="bitrate_4000">4000 kbps (मध्यम)</string>
+    <string name="bitrate_6000">6000 kbps (मध्यम-उच्च)</string>
+    <string name="bitrate_8000">8000 kbps (उच्च)</string>
+    <string name="bitrate_12000">12000 kbps (बहुत उच्च)</string>
+    <string name="bitrate_15000">15000 kbps (अधिकतम)</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_qualities">कोई समर्थित वीडियो गुणवत्ता नहीं मिली</string>
+    <string name="toast_permissions_required">रिकॉर्डिंग के लिए सभी अनुमतियाँ आवश्यक</string>
+    <string name="toast_recording_started">रिकॉर्डिंग शुरू - %s, %s कैमरा, %s kbps, %s मिनट सेगमेंट</string>
+    <string name="toast_recording_stopped">रिकॉर्डिंग रोकी गई</string>
+    <string name="toast_no_file_manager">कोई फाइल मैनेजर नहीं मिला</string>
+    <string name="toast_no_qualities_device">कोई समर्थित वीडियो गुणवत्ता नहीं मिली</string>
+
+    <!-- UI Labels -->
+    <string name="quality_label">गुणवत्ता</string>
+    <string name="camera_label">कैमरा</string>
+    <string name="bitrate_label">बिटरेट</string>
+    <string name="segment_label">सेगमेंट</string>
+    <string name="ring_buffer_label">रिंग बफर</string>
+    <string name="est_size_label">अनुमा. आकार</string>
+    <string name="est_total_label">अनुमा. कुल</string>
+    <string name="free_space_label">मुफ्त जगह</string>
+    <string name="wake_lock_active">वेक लॉक सक्रिय</string>
+    <string name="foreground_service_running">फोरग्राउंड सर्विस चल रही है</string>
+
+    <!-- Requirements -->
+    <string name="requires_camera_mic_storage">आवश्यक: कैमरा, माइक्रोफोन, स्टोरेज</string>
+    <string name="disable_battery_optimization">इस ऐप के लिए बैटरी ऑप्टिमाइज़ेशन अक्षम करें</string>
+
+    <!-- Note text -->
+    <string name="note_power">नोट: फोन को स्थायी रूप से संचालित रखना होगा।</string>
+    <string name="note_battery_optimization">इस ऐप के लिए बैटरी ऑप्टिमाइज़ेशन अक्षम करें।</string>
+
+    <!-- Quality names -->
+    <string name="quality_name_high">उच्च</string>
+    <string name="quality_name_1080p">1080P</string>
+    <string name="quality_name_720p">720P</string>
+    <string name="quality_name_480p">480P</string>
+    <string name="quality_name_cif">CIF</string>
+    <string name="quality_name_qvga">QVGA</string>
+    <string name="quality_name_qcif">QCIF</string>
+
+
+    <string name="audio_with">ऑडियो के साथ</string>
+    <string name="audio_without">मूक (कोई ऑडियो नहीं)</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">SNAP24 रिकॉर्डिंग</string>
+    <string name="notification_channel_description">निरंतर वीडियो रिकॉर्डिंग सेवा</string>
+    <string name="notification_title">SNAP24 रिकॉर्डिंग</string>
+    <string name="notification_text">सेगमेंट %1$d / %2$d रिकॉर्ड हो रहा है</string>
+
+    <!-- Battery optimization dialog -->
+    <string name="battery_optimization_title">बैटरी ऑप्टिमाइज़ेशन अनदेखा करें?</string>
+    <string name="battery_optimization_message">क्या %s को बैटरी ऑप्टिमाइज़ेशन के बिना पृष्ठभूमि में चलने दें?</string>
+    <string name="battery_optimization_yes">हाँ</string>
+    <string name="battery_optimization_no">नहीं</string>
+</resources>

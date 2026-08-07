@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SNAP24</string>
+
+    <!-- Main Activity -->
+    <string name="continuous_video_recorder">Continuous Video Recorder</string>
+    <string name="status_idle">Status: IDLE</string>
+    <string name="status_recording">Status: RECORDING</string>
+
+    <!-- Info text components -->
+    <string name="info_quality_format">Quality: %s</string>
+    <string name="info_camera_format">Camera: %s</string>
+    <string name="info_audio_format">Audio: %s</string>
+    <string name="info_bitrate_format">Bitrate: %s kbps</string>
+    <string name="info_segment_format">Segment: %s min</string>
+    <string name="info_ring_buffer">Ring buffer: 48 files (24h)</string>
+    <string name="info_est_size_format">Est. size: ~%s MB/segment</string>
+    <string name="info_est_total_format">Est. total: ~%s GB</string>
+    <string name="info_free_space_format">Free space: %s</string>
+
+    <!-- Status texts -->
+    <string name="status_recording_details">Wake lock active\nForeground service running</string>
+    <string name="status_idle_details">Requires: Camera, Microphone, Storage\nDisable battery optimization for this app</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_recording">START RECORDING</string>
+    <string name="btn_stop_recording">STOP</string>
+    <string name="btn_open_recordings_folder">Open Recordings Folder</string>
+
+    <!-- Note text -->
+    <string name="note_power_battery">Note: Phone must be permanently powered.\nBattery optimization must be disabled for this app.</string>
+
+    <!-- Settings menu titles -->
+    <string name="settings_back_camera_quality">Back Camera Quality</string>
+    <string name="settings_front_camera_quality">Front Camera Quality</string>
+    <string name="settings_camera_selection">Camera Selection</string>
+    <string name="settings_video_bitrate">Video Bitrate (Compression)</string>
+
+    <!-- Quality dialog -->
+    <string name="quality_dialog_title">Video Quality</string>
+    <string name="quality_high">QUALITY_HIGH (Device best)</string>
+    <string name="quality_1080p">QUALITY_1080P (1920x1080)</string>
+    <string name="quality_720p">QUALITY_720P (1280x720)</string>
+    <string name="quality_480p">QUALITY_480P (720x480)</string>
+    <string name="quality_cif">QUALITY_CIF (352x288)</string>
+    <string name="quality_qvga">QUALITY_QVGA (320x240)</string>
+    <string name="quality_qcif">QUALITY_QCIF (176x144)</string>
+    <string name="no_qualities_found">No supported video qualities found</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Camera selection dialog -->
+    <string name="camera_selection_title">Camera Selection</string>
+    <string name="camera_back">Back Camera</string>
+    <string name="camera_front">Front Camera (Selfie)</string>
+
+    <!-- Bitrate dialog -->
+    <string name="bitrate_dialog_title">Video Bitrate (Compression)</string>
+    <string name="bitrate_500">500 kbps (Very Low)</string>
+    <string name="bitrate_1000">1000 kbps (Low)</string>
+    <string name="bitrate_2000">2000 kbps (Medium-Low)</string>
+    <string name="bitrate_4000">4000 kbps (Medium)</string>
+    <string name="bitrate_6000">6000 kbps (Medium-High)</string>
+    <string name="bitrate_8000">8000 kbps (High)</string>
+    <string name="bitrate_12000">12000 kbps (Very High)</string>
+    <string name="bitrate_15000">15000 kbps (Maximum)</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_qualities">No supported video qualities found</string>
+    <string name="toast_permissions_required">All permissions required for recording</string>
+    <string name="toast_recording_started">Recording started - %s, %s camera, %s kbps, %s min segments</string>
+    <string name="toast_recording_stopped">Recording stopped</string>
+    <string name="toast_no_file_manager">No file manager found</string>
+    <string name="toast_no_qualities_device">No supported video qualities found</string>
+
+    <!-- UI Labels -->
+    <string name="quality_label">Quality</string>
+    <string name="camera_label">Camera</string>
+    <string name="bitrate_label">Bitrate</string>
+    <string name="segment_label">Segment</string>
+    <string name="ring_buffer_label">Ring buffer</string>
+    <string name="est_size_label">Est. size</string>
+    <string name="est_total_label">Est. total</string>
+    <string name="free_space_label">Free space</string>
+    <string name="wake_lock_active">Wake lock active</string>
+    <string name="foreground_service_running">Foreground service running</string>
+
+    <!-- Requirements -->
+    <string name="requires_camera_mic_storage">Requires: Camera, Microphone, Storage</string>
+    <string name="disable_battery_optimization">Disable battery optimization for this app</string>
+
+    <!-- Note text -->
+    <string name="note_power">Note: Phone must be permanently powered.</string>
+    <string name="note_battery_optimization">Battery optimization must be disabled for this app.</string>
+
+    <!-- Quality names -->
+    <string name="quality_name_high">HIGH</string>
+    <string name="quality_name_1080p">1080P</string>
+    <string name="quality_name_720p">720P</string>
+    <string name="quality_name_480p">480P</string>
+    <string name="quality_name_cif">CIF</string>
+    <string name="quality_name_qvga">QVGA</string>
+    <string name="quality_name_qcif">QCIF</string>
+
+
+    <string name="audio_with">With Audio</string>
+    <string name="audio_without">Silent (No Audio)</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">SNAP24 Aufnahme</string>
+    <string name="notification_channel_description">Kontinuierliche Videoaufnahme</string>
+    <string name="notification_title">SNAP24 Aufnahme</string>
+    <string name="notification_text">Aufnahme Segment %1$d von %2$d</string>
+
+    <!-- Battery optimization dialog -->
+    <string name="battery_optimization_title">Ignore battery optimization?</string>
+    <string name="battery_optimization_message">Allow %s to run in background without battery optimization?</string>
+    <string name="battery_optimization_yes">Yes</string>
+    <string name="battery_optimization_no">No</string>
+</resources>

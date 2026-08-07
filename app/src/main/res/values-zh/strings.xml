@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SNAP24</string>
+
+    <!-- Main Activity -->
+    <string name="continuous_video_recorder">持续视频录制器</string>
+    <string name="status_idle">状态: 空闲</string>
+    <string name="status_recording">状态: 录制中</string>
+
+    <!-- Info text components -->
+    <string name="info_quality_format">质量: %s</string>
+    <string name="info_camera_format">摄像头: %s</string>
+    <string name="info_audio_format">音频: %s</string>
+    <string name="info_bitrate_format">比特率: %s kbps</string>
+    <string name="info_segment_format">片段: %s 分钟</string>
+    <string name="info_ring_buffer">环形缓冲区: 48 文件 (24小时)</string>
+    <string name="info_est_size_format">预估大小: ~%s MB/段</string>
+    <string name="info_est_total_format">预估总计: ~%s GB</string>
+    <string name="info_free_space_format">可用空间: %s</string>
+
+    <!-- Status texts -->
+    <string name="status_recording_details">唤醒锁激活\n前台服务运行中</string>
+    <string name="status_idle_details">需要: 相机, 麦克风, 存储\n禁用此应用的电池优化</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_recording">开始录制</string>
+    <string name="btn_stop_recording">停止</string>
+    <string name="btn_open_recordings_folder">打开录制文件夹</string>
+
+    <!-- Note text -->
+    <string name="note_power_battery">注意: 手机必须永久供电。\n禁用此应用的电池优化。</string>
+
+    <!-- Settings menu titles -->
+    <string name="settings_back_camera_quality">后置摄像头质量</string>
+    <string name="settings_front_camera_quality">前置摄像头质量</string>
+    <string name="settings_camera_selection">摄像头选择</string>
+    <string name="settings_video_bitrate">视频比特率 (压缩)</string>
+
+    <!-- Quality dialog -->
+    <string name="quality_dialog_title">视频质量</string>
+    <string name="quality_high">QUALITY_HIGH (设备最佳)</string>
+    <string name="quality_1080p">QUALITY_1080P (1920x1080)</string>
+    <string name="quality_720p">QUALITY_720P (1280x720)</string>
+    <string name="quality_480p">QUALITY_480P (720x480)</string>
+    <string name="quality_cif">QUALITY_CIF (352x288)</string>
+    <string name="quality_qvga">QUALITY_QVGA (320x240)</string>
+    <string name="quality_qcif">QUALITY_QCIF (176x144)</string>
+    <string name="no_qualities_found">未找到支持的视频质量</string>
+    <string name="cancel">取消</string>
+
+    <!-- Camera selection dialog -->
+    <string name="camera_selection_title">摄像头选择</string>
+    <string name="camera_back">后置摄像头</string>
+    <string name="camera_front">前置摄像头 (自拍)</string>
+
+    <!-- Bitrate dialog -->
+    <string name="bitrate_dialog_title">视频比特率 (压缩)</string>
+    <string name="bitrate_500">500 kbps (极低)</string>
+    <string name="bitrate_1000">1000 kbps (低)</string>
+    <string name="bitrate_2000">2000 kbps (中低)</string>
+    <string name="bitrate_4000">4000 kbps (中等)</string>
+    <string name="bitrate_6000">6000 kbps (中高)</string>
+    <string name="bitrate_8000">8000 kbps (高)</string>
+    <string name="bitrate_12000">12000 kbps (极高)</string>
+    <string name="bitrate_15000">15000 kbps (最大)</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_qualities">未找到支持的视频质量</string>
+    <string name="toast_permissions_required">需要所有权限才能录制</string>
+    <string name="toast_recording_started">录制已开始 - %s, %s 摄像头, %s kbps, %s 分钟/段</string>
+    <string name="toast_recording_stopped">录制已停止</string>
+    <string name="toast_no_file_manager">未找到文件管理器</string>
+    <string name="toast_no_qualities_device">未找到支持的视频质量</string>
+
+    <!-- UI Labels -->
+    <string name="quality_label">质量</string>
+    <string name="camera_label">摄像头</string>
+    <string name="bitrate_label">比特率</string>
+    <string name="segment_label">片段</string>
+    <string name="ring_buffer_label">环形缓冲区</string>
+    <string name="est_size_label">预估大小</string>
+    <string name="est_total_label">预估总计</string>
+    <string name="free_space_label">可用空间</string>
+    <string name="wake_lock_active">唤醒锁激活</string>
+    <string name="foreground_service_running">前台服务运行中</string>
+
+    <!-- Requirements -->
+    <string name="requires_camera_mic_storage">需要: 相机, 麦克风, 存储</string>
+    <string name="disable_battery_optimization">为此应用禁用电池优化</string>
+
+    <!-- Note text -->
+    <string name="note_power">注意: 手机必须永久供电。</string>
+    <string name="note_battery_optimization">为此应用禁用电池优化。</string>
+
+    <!-- Quality names -->
+    <string name="quality_name_high">高</string>
+    <string name="quality_name_1080p">1080P</string>
+    <string name="quality_name_720p">720P</string>
+    <string name="quality_name_480p">480P</string>
+    <string name="quality_name_cif">CIF</string>
+    <string name="quality_name_qvga">QVGA</string>
+    <string name="quality_name_qcif">QCIF</string>
+
+    <string name="audio_with">带音频</string>
+    <string name="audio_without">静音 (无音频)</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">SNAP24 录制</string>
+    <string name="notification_channel_description">持续视频录制服务</string>
+    <string name="notification_title">SNAP24 录制</string>
+    <string name="notification_text">录制片段 %1$d / %2$d</string>
+
+    <!-- Battery optimization dialog -->
+    <string name="battery_optimization_title">忽略电池优化?</string>
+    <string name="battery_optimization_message">允许 %s 在后台运行而不受电池优化限制?</string>
+    <string name="battery_optimization_yes">是</string>
+    <string name="battery_optimization_no">否</string>
+</resources>

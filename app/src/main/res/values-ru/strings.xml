@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SNAP24</string>
+
+    <!-- Main Activity -->
+    <string name="continuous_video_recorder">Непрерывный видеорекордер</string>
+    <string name="status_idle">Статус: ОЖИДАНИЕ</string>
+    <string name="status_recording">Статус: ЗАПИСЬ</string>
+
+    <!-- Info text components -->
+    <string name="info_quality_format">Качество: %s</string>
+    <string name="info_camera_format">Камера: %s</string>
+    <string name="info_audio_format">Аудио: %s</string>
+    <string name="info_bitrate_format">Битрейт: %s kbps</string>
+    <string name="info_segment_format">Сегмент: %s мин</string>
+    <string name="info_ring_buffer">Кольцевой буфер: 48 файлов (24 ч)</string>
+    <string name="info_est_size_format">Прогноз размера: ~%s МБ/сегмент</string>
+    <string name="info_est_total_format">Прогноз всего: ~%s ГБ</string>
+    <string name="info_free_space_format">Свободное место: %s</string>
+
+    <!-- Status texts -->
+    <string name="status_recording_details">Wake lock активен\nForeground-сервис работает</string>
+    <string name="status_idle_details">Требуется: камера, микрофон, хранилище\nОтключите оптимизацию батареи для этого приложения</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_recording">НАЧАТЬ ЗАПИСЬ</string>
+    <string name="btn_stop_recording">СТОП</string>
+    <string name="btn_open_recordings_folder">Открыть папку записей</string>
+
+    <!-- Note text -->
+    <string name="note_power_battery">Примечание: Телефон должен быть постоянно подключен к питанию.\nОтключите оптимизацию батареи для этого приложения.</string>
+
+    <!-- Settings menu titles -->
+    <string name="settings_back_camera_quality">Качество задней камеры</string>
+    <string name="settings_front_camera_quality">Качество фронтальной камеры</string>
+    <string name="settings_camera_selection">Выбор камеры</string>
+    <string name="settings_video_bitrate">Видео битрейт (сжатие)</string>
+
+    <!-- Quality dialog -->
+    <string name="quality_dialog_title">Качество видео</string>
+    <string name="quality_high">QUALITY_HIGH (Лучшее устройством)</string>
+    <string name="quality_1080p">QUALITY_1080P (1920x1080)</string>
+    <string name="quality_720p">QUALITY_720P (1280x720)</string>
+    <string name="quality_480p">QUALITY_480P (720x480)</string>
+    <string name="quality_cif">QUALITY_CIF (352x288)</string>
+    <string name="quality_qvga">QUALITY_QVGA (320x240)</string>
+    <string name="quality_qcif">QUALITY_QCIF (176x144)</string>
+    <string name="no_qualities_found">Поддерживаемые качество видео не найдено</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Camera selection dialog -->
+    <string name="camera_selection_title">Выбор камеры</string>
+    <string name="camera_back">Задняя камера</string>
+    <string name="camera_front">Фронтальная камера (селфи)</string>
+
+    <!-- Bitrate dialog -->
+    <string name="bitrate_dialog_title">Видео битрейт (сжатие)</string>
+    <string name="bitrate_500">500 kbps (Очень низкий)</string>
+    <string name="bitrate_1000">1000 kbps (Низкий)</string>
+    <string name="bitrate_2000">2000 kbps (Средне-низкий)</string>
+    <string name="bitrate_4000">4000 kbps (Средний)</string>
+    <string name="bitrate_6000">6000 kbps (Средне-высокий)</string>
+    <string name="bitrate_8000">8000 kbps (Высокий)</string>
+    <string name="bitrate_12000">12000 kbps (Очень высокий)</string>
+    <string name="bitrate_15000">15000 kbps (Максимальный)</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_qualities">Поддерживаемые качество видео не найдено</string>
+    <string name="toast_permissions_required">Все разрешения обязательны для записи</string>
+    <string name="toast_recording_started">Запись начата - %s, %s камера, %s kbps, %s мин сегментов</string>
+    <string name="toast_recording_stopped">Запись остановлена</string>
+    <string name="toast_no_file_manager">Файловый менеджер не найден</string>
+    <string name="toast_no_qualities_device">Поддерживаемые качество видео не найдено</string>
+
+    <!-- UI Labels -->
+    <string name="quality_label">Качество</string>
+    <string name="camera_label">Камера</string>
+    <string name="bitrate_label">Битрейт</string>
+    <string name="segment_label">Сегмент</string>
+    <string name="ring_buffer_label">Кольцевой буфер</string>
+    <string name="est_size_label">Прогноз размера</string>
+    <string name="est_total_label">Прогноз всего</string>
+    <string name="free_space_label">Свободное место</string>
+    <string name="wake_lock_active">Wake lock активен</string>
+    <string name="foreground_service_running">Foreground-сервис работает</string>
+
+    <!-- Requirements -->
+    <string name="requires_camera_mic_storage">Требуется: камера, микрофон, хранилище</string>
+    <string name="disable_battery_optimization">Отключите оптимизацию батареи для этого приложения</string>
+
+    <!-- Note text -->
+    <string name="note_power">Примечание: Телефон должен быть постоянно подключен к питанию.</string>
+    <string name="note_battery_optimization">Отключите оптимизацию батареи для этого приложения.</string>
+
+    <!-- Quality names -->
+    <string name="quality_name_high">ВЫСОКОЕ</string>
+    <string name="quality_name_1080p">1080P</string>
+    <string name="quality_name_720p">720P</string>
+    <string name="quality_name_480p">480P</string>
+    <string name="quality_name_cif">CIF</string>
+    <string name="quality_name_qvga">QVGA</string>
+    <string name="quality_name_qcif">QCIF</string>
+
+
+    <string name="audio_with">Со звуком</string>
+    <string name="audio_without">Без звука (тихий)</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">SNAP24 Запись</string>
+    <string name="notification_channel_description">Непрерывная видеозапись</string>
+    <string name="notification_title">SNAP24 Запись</string>
+    <string name="notification_text">Запись сегмента %1$d из %2$d</string>
+
+    <!-- Battery optimization dialog -->
+    <string name="battery_optimization_title">Игнорировать оптимизацию батареи?</string>
+    <string name="battery_optimization_message">Разрешить %s работать в фоне без оптимизации батареи?</string>
+    <string name="battery_optimization_yes">Да</string>
+    <string name="battery_optimization_no">Нет</string>
+</resources>

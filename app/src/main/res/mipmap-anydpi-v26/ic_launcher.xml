@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,6A48,48 0 1,1 54,102A48,48 0 1,1 54,6Z"/>
+    <!-- Camera body (centered) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,36h36v36h-36zM36,36c0-6.6 5.4-12 12-12h12c6.6 0 12 5.4 12 12v36c0 6.6-5.4 12-12 12h-36c-6.6 0-12-5.4-12-12v-36z"/>
+    <!-- Camera lens -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,54a18,18 0 1,1 0-36,18 18 0 0,1 0,36z"/>
+    <!-- Lens inner -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,60a12,12 0 1,1 0-24,12 12 0 0,1 0,24z"/>
+    <!-- Lens center dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,62a8,8 0 1,1 0-16,8 8 0 0,1 0,16z"/>
+    <!-- Clock (top right area) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,32a14,14 0 1,1 0-28,14 14 0 0,1 0,28z"/>
+    <!-- Clock face -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M76,32a12,12 0 1,1 0-24,12 12 0 0,1 0,24z"/>
+    <!-- Clock hour hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,32 L76,26 L80,26 L80,32 Z"/>
+    <!-- Clock minute hand -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,32 L83,32 L83,36 L76,36 Z"/>
+</vector>

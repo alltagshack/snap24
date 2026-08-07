@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SNAP24</string>
+
+    <!-- Main Activity -->
+    <string name="continuous_video_recorder">継続的ビデオレコーダー</string>
+    <string name="status_idle">ステータス: 待機中</string>
+    <string name="status_recording">ステータス: 録画中</string>
+
+    <!-- Info text components -->
+    <string name="info_quality_format">画質: %s</string>
+    <string name="info_camera_format">カメラ: %s</string>
+    <string name="info_audio_format">音声: %s</string>
+    <string name="info_bitrate_format">ビットレート: %s kbps</string>
+    <string name="info_segment_format">セグメント: %s 分</string>
+    <string name="info_ring_buffer">リングバッファ: 48 ファイル (24時間)</string>
+    <string name="info_est_size_format">推定サイズ: ~%s MB/セグメント</string>
+    <string name="info_est_total_format">推定合計: ~%s GB</string>
+    <string name="info_free_space_format">空き容量: %s</string>
+
+    <!-- Status texts -->
+    <string name="status_recording_details">ウェイクロック有効\nフォアグラウンドサービス実行中</string>
+    <string name="status_idle_details">必要: カメラ、マイク、ストレージ\nこのアプリのバッテリー最適化を無効にする</string>
+
+    <!-- Buttons -->
+    <string name="btn_start_recording">録画開始</string>
+    <string name="btn_stop_recording">停止</string>
+    <string name="btn_open_recordings_folder">録画フォルダを開く</string>
+
+    <!-- Note text -->
+    <string name="note_power_battery">注意: スマホは常時充電が必要です。\nこのアプリのバッテリー最適化を無効にしてください。</string>
+
+    <!-- Settings menu titles -->
+    <string name="settings_back_camera_quality">背面カメラ画質</string>
+    <string name="settings_front_camera_quality">フロントカメラ画質</string>
+    <string name="settings_camera_selection">カメラ選択</string>
+    <string name="settings_video_bitrate">ビデオビットレート (圧縮)</string>
+
+    <!-- Quality dialog -->
+    <string name="quality_dialog_title">動画画質</string>
+    <string name="quality_high">QUALITY_HIGH (デバイス最高)</string>
+    <string name="quality_1080p">QUALITY_1080P (1920x1080)</string>
+    <string name="quality_720p">QUALITY_720P (1280x720)</string>
+    <string name="quality_480p">QUALITY_480P (720x480)</string>
+    <string name="quality_cif">QUALITY_CIF (352x288)</string>
+    <string name="quality_qvga">QUALITY_QVGA (320x240)</string>
+    <string name="quality_qcif">QUALITY_QCIF (176x144)</string>
+    <string name="no_qualities_found">対応する動画画質が見つかりません</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- Camera selection dialog -->
+    <string name="camera_selection_title">カメラ選択</string>
+    <string name="camera_back">背面カメラ</string>
+    <string name="camera_front">フロントカメラ (自撮り)</string>
+
+    <!-- Bitrate dialog -->
+    <string name="bitrate_dialog_title">ビデオビットレート (圧縮)</string>
+    <string name="bitrate_500">500 kbps (とても低い)</string>
+    <string name="bitrate_1000">1000 kbps (低い)</string>
+    <string name="bitrate_2000">2000 kbps (中-低)</string>
+    <string name="bitrate_4000">4000 kbps (中)</string>
+    <string name="bitrate_6000">6000 kbps (中-高)</string>
+    <string name="bitrate_8000">8000 kbps (高い)</string>
+    <string name="bitrate_12000">12000 kbps (とても高い)</string>
+    <string name="bitrate_15000">15000 kbps (最大)</string>
+
+    <!-- Toasts -->
+    <string name="toast_no_qualities">対応する動画画質が見つかりません</string>
+    <string name="toast_permissions_required">録画には全ての権限が必要です</string>
+    <string name="toast_recording_started">録画開始 - %s、%sカメラ、%s kbps、%s分セグメント</string>
+    <string name="toast_recording_stopped">録画停止</string>
+    <string name="toast_no_file_manager">ファイルマネージャーが見つかりません</string>
+    <string name="toast_no_qualities_device">対応する動画画質が見つかりません</string>
+
+    <!-- UI Labels -->
+    <string name="quality_label">画質</string>
+    <string name="camera_label">カメラ</string>
+    <string name="bitrate_label">ビットレート</string>
+    <string name="segment_label">セグメント</string>
+    <string name="ring_buffer_label">リングバッファ</string>
+    <string name="est_size_label">推定サイズ</string>
+    <string name="est_total_label">推定合計</string>
+    <string name="free_space_label">空き容量</string>
+    <string name="wake_lock_active">ウェイクロック有効</string>
+    <string name="foreground_service_running">フォアグラウンドサービス実行中</string>
+
+    <!-- Requirements -->
+    <string name="requires_camera_mic_storage">必要: カメラ、マイク、ストレージ</string>
+    <string name="disable_battery_optimization">このアプリのバッテリー最適化を無効にする</string>
+
+    <!-- Note text -->
+    <string name="note_power">注意: スマホは常時充電が必要です。</string>
+    <string name="note_battery_optimization">このアプリのバッテリー最適化を無効にしてください。</string>
+
+    <!-- Quality names -->
+    <string name="quality_name_high">高画質</string>
+    <string name="quality_name_1080p">1080P</string>
+    <string name="quality_name_720p">720P</string>
+    <string name="quality_name_480p">480P</string>
+    <string name="quality_name_cif">CIF</string>
+    <string name="quality_name_qvga">QVGA</string>
+    <string name="quality_name_qcif">QCIF</string>
+
+    <string name="audio_with">音声あり</string>
+    <string name="audio_without">無音 (音声なし)</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">SNAP24 録画</string>
+    <string name="notification_channel_description">継続的ビデオ録画サービス</string>
+    <string name="notification_title">SNAP24 録画</string>
+    <string name="notification_text">録画セグメント %1$d / %2$d</string>
+
+    <!-- Battery optimization dialog -->
+    <string name="battery_optimization_title">バッテリー最適化を無視?</string>
+    <string name="battery_optimization_message">%s をバッテリー最適化なしでバックグラウンド実行を許可?</string>
+    <string name="battery_optimization_yes">はい</string>
+    <string name="battery_optimization_no">いいえ</string>
+</resources>

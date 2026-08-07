@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_back_camera_quality"
+        android:title="@string/settings_back_camera_quality"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_front_camera_quality"
+        android:title="@string/settings_front_camera_quality"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_camera_selection"
+        android:title="@string/settings_camera_selection"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_video_bitrate"
+        android:title="@string/settings_video_bitrate"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+</menu>
