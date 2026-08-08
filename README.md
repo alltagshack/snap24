@@ -5,7 +5,8 @@ Eine Android-App für kontinuierliche Videoaufnahme mit Ringpuffer.
 Abgesehen von der SVG-Datei, die ich leicht angepasst habe, ist diese App
 nur mit **opencode** und dem Model **Nemotron 3 Ultra Free** entstanden.
 Bis auf diesen Absatz ist auch die Readme-Datei so entstanden und alle anderen
-Bilder, Texte usw. Man kann den Chat [hier](https://opncd.ai/share/RkboQxPO) einsehen.
+Bilder, Texte usw. Man kann den Chat [hier](https://opncd.ai/share/RkboQxPO) einsehen
+oder diese [Kurzversion](short-prompt.md).
 2 oder 3 redundante Details in der Readme wurden von mir entfernt.
 
 ## Features
