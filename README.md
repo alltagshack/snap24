@@ -7,7 +7,8 @@ nur mit **opencode** und dem Model **Nemotron 3 Ultra Free** entstanden.
 Bis auf diesen Absatz ist auch die Readme-Datei so entstanden und alle anderen
 Bilder, Texte usw. Man kann den Chat [hier](https://opncd.ai/share/RkboQxPO) einsehen
 oder diese [Kurzversion](short-prompt.md).
-2 oder 3 redundante Details in der Readme wurden von mir entfernt.
+2 oder 3 redundante Details in der Readme wurden von mir entfernt. Hier ist
+noch ein [LinkedIn Artikel](https://de.linkedin.com/pulse/coding-mit-ai-ein-test-jochen-peters-b9qje) von mir dazu.
 
 ## Features
 
